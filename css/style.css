@@ -1,0 +1,148 @@
+p{
+   
+    font-weight: 500;
+    font-size: 20px;
+}
+
+a{
+    font-weight: bold;
+    color: inherit;
+    text-decoration: none;
+}
+h1
+{
+    font-size: 40px;
+    text-align: center;
+  color: #a50000;
+}
+
+h3
+{
+    font-size: 24px;
+      color: rgb(0,49,49);
+
+}
+
+table
+{
+    border: 1px solid ;
+}
+
+th, td {
+    text-align: center;
+    padding: 15px;
+       border: 1px solid ;
+}
+
+img
+{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid rgb(0,49,49);
+   
+}
+  
+.container
+{
+    margin: auto;
+    font-family: 'Nunito', sans-serif;
+    color: rgb(0,82,82);
+}
+
+.button
+{
+    margin: auto;
+    width: 40%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    min-width: 300px;
+
+    text-align: left;
+    font-size: 30px;
+    font-weight: 500;
+    border: 5px solid #a50000;   
+}
+
+.button:hover
+{
+    background-color: rgb(204,237,237);
+    font-weight: 900;
+}
+
+
+.button > p 
+{
+    color: #a50000;
+    text-align: center; 
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.article
+{
+    width: 80%;
+    margin: auto;
+    
+}
+
+.inside-box
+{
+    
+    display: block;
+    padding: auto;
+    margin: auto;
+    
+    float: left;
+
+}
+
+
+.ingredients {
+       width: 25%;
+}
+
+.nutritional {
+    width: 50%;
+    overflow-x:auto
+}
+
+.price {
+  width: 25%;
+ 
+}
+
+.info-container 
+{
+    margin: auto;
+}
+
+.menu > ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border-bottom: 2px solid;
+}
+
+
+
+.menu li
+{
+    float: left;
+}
+
+.menu li a
+{    
+    display: block;
+    padding: 8px;
+    margin-left: 10px;
+    border-right:  1px dotted;
+}
+
+.menu li a:first-child
+{    
+
+    border-left:  1px dotted;
+}
