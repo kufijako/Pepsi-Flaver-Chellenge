@@ -8,7 +8,7 @@
 * [Contact](#contact)
 
 ## General info
-Our goal is to try every Pepsi falvor that we can buy and review it this website. 
+Our goal is to try every Pepsi flavor that we can buy and review it on this website. 
 
 ## Screenshot
 ![Screenshot](http://kubafila.pl/img/screenshots/pepsi.png)
