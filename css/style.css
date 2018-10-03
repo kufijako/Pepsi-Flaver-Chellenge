@@ -1,3 +1,8 @@
+*
+{
+    font-family: 'Nunito', sans-serif;
+    color: rgb(0,82,82);
+}
 p{
    
     font-weight: 500;
@@ -43,13 +48,7 @@ img
     border: 5px solid rgb(0,49,49);
    
 }
-  
-.container
-{
-    margin: auto;
-    font-family: 'Nunito', sans-serif;
-    color: rgb(0,82,82);
-}
+
 
 .button
 {
@@ -81,7 +80,7 @@ img
     font-size: 24px;
 }
 
-.article
+article
 {
     width: 80%;
     margin: auto;
@@ -119,7 +118,12 @@ img
     margin: auto;
 }
 
-.menu > ul{
+nav
+{
+    
+}
+
+nav > ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -129,31 +133,31 @@ img
 
 
 
-.menu li
+nav li
 {
     float: left;
 }
 
-.menu li:hover
+nav li:hover
 {
 	
     float: left;
 }
 
-.menu li a
+nav li a
 {    
     display: block;
     padding: 8px;
     margin-left: 10px;
     border-right:  1px dotted;
 }
-.menu li a:hover
+nav li a:hover
 {    
     background-color:rgb(0,82,82);
 	color:white;
 }
 
-.menu li a:first-child
+nav li a:first-child
 {    
 
     border-left:  1px dotted;
